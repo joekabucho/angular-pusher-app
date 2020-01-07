@@ -37,7 +37,7 @@ export class AppComponent {
     const { message, currentUser } = this;
     currentUser.sendMessage({
       text: message,
-      roomId: '77a3b8c3-64ae-475f-928a-aa9ebc0a2eae',
+      roomId: '816c5627-fffb-4142-adac-a2cba0c6ebaa',
     });
     
     this.message = '';
@@ -61,7 +61,7 @@ export class AppComponent {
           .connect()
           .then(currentUser => {
             currentUser.subscribeToRoom({
-              roomId: '77a3b8c3-64ae-475f-928a-aa9ebc0a2eae',
+              roomId: '816c5627-fffb-4142-adac-a2cba0c6ebaa',
               messageLimit: 100,
               hooks: {
                 onMessage: message => {

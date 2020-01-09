@@ -45,10 +45,10 @@ export class AppComponent {
 
   addUser() {
     const { username } = this;
-    axios.post('http://localhost:5200/users', { username })
+    axios.post('http://46.101.128.222:5200/users', { username })
       .then(() => {
         const tokenProvider = new Chatkit.TokenProvider({
-          url: 'http://localhost:5200/authenticate'
+          url: 'http://46.101.128.222:5200/authenticate'
         });
 
         const chatManager = new Chatkit.ChatManager({

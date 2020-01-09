@@ -329,10 +329,10 @@ let AppComponent = class AppComponent {
     }
     addUser() {
         const { username } = this;
-        axios__WEBPACK_IMPORTED_MODULE_3___default.a.post('http://localhost:5200/users', { username })
+        axios__WEBPACK_IMPORTED_MODULE_3___default.a.post('http://46.101.128.222:5200/users', { username })
             .then(() => {
             const tokenProvider = new _pusher_chatkit_client__WEBPACK_IMPORTED_MODULE_2___default.a.TokenProvider({
-                url: 'http://localhost:5200/authenticate'
+                url: 'http://46.101.128.222:5200/authenticate'
             });
             const chatManager = new _pusher_chatkit_client__WEBPACK_IMPORTED_MODULE_2___default.a.ChatManager({
                 instanceLocator: 'v1:us1:b24fbeda-26ef-451f-98eb-12c1048778a9',

@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
     "@pusher/chatkit-client": "^1.13.3",
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "axios": "^0.18.1",
     "bootstrap": "^4.4.1",
     "core-js": "^2.5.4",
